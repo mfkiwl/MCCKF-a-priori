@@ -18,5 +18,24 @@ The codes have been presented here for their instructional value only. They have
 
 When the state is estimated, the resulted errors of the MCC-KF implementation methods should be the same because they are mathematically equivalent to each other. Their numerical properties differ, but the ill-conditioned test examples are not given here. Similarly, the resulted errors of the IMCC-KF implementation methods should be the same because they are mathematically equivalent to each other. 
 
-## List of the MCC-KF implementation methods
-## List of the IMCC-KF implementation methods
+# List of the MCC-KF implementation methods
+### Riccati recursion-based KF implementation methods:
+Conventional algorithms:
+ -  `@Riccati_MCCKF_standard` is the Conventional implementation in one-step condensed form by Kulikova (2019)
+
+# List of the IMCC-KF implementation methods
+### Riccati recursion-based KF implementation methods:
+Conventional algorithms:
+ -  `@Riccati_IMCCKF_standard` is the Conventional implementation in one-step condensed form by Kulikova (2019)
+   
+Square-root algorithms by using Cholesky factorization:
+ -  `Riccati_IMCCKF_SRCF_QL`   is the Square-Root Covariance Filter with lower triangular factors by Kulikova (2019)
+ -  `Riccati_IMCCKF_eSRCF_QL`  is the Extended Square-Root Covariance Filter with lower triangular factors by Kulikova (2019)
+ -  
+### Chandrasekhar recursion-based KF implementation methods:
+Conventional algorithms:
+-  `@Chandrasekhar_IMCCKF1` is the Conventional implementation by Kulikova (2020)
+-  `@Chandrasekhar_IMCCKF2` is the Conventional implementation by Kulikova (2020)
+-  `@Chandrasekhar_IMCCKF3` is the Conventional implementation by Kulikova (2020)
+-  `@Chandrasekhar_IMCCKF4` is the Conventional implementation by Kulikova (2020)
+
