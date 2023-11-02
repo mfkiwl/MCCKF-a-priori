@@ -21,16 +21,16 @@ When the state is estimated, the resulted errors of the MCC-KF implementation me
 # List of the MCC-KF implementation methods
 ### Riccati recursion-based KF implementation methods:
 Conventional algorithms:
- -  `@Riccati_MCCKF_standard` is the Conventional implementation in one-step condensed form by Kulikova (2019)
+ -  `@Riccati_MCCKF_standard` is the Conventional implementation in one-step condensed form by Kulikova (2019), <a href="http://doi.org/10.1109/ICSTCC.2019.8885950">DOI</a>
 
 # List of the IMCC-KF implementation methods
 ### Riccati recursion-based KF implementation methods:
 Conventional algorithms:
- -  `@Riccati_IMCCKF_standard` is the Conventional implementation in one-step condensed form by Kulikova (2019)
+ -  `@Riccati_IMCCKF_standard` is the Conventional implementation in one-step condensed form by Kulikova (2019), <a href="http://doi.org/10.1109/ICSTCC.2019.8885950">DOI</a>
    
 Square-root algorithms by using Cholesky factorization:
- -  `Riccati_IMCCKF_SRCF_QL`   is the Square-Root Covariance Filter with lower triangular factors by Kulikova (2019)
- -  `Riccati_IMCCKF_eSRCF_QL`  is the Extended Square-Root Covariance Filter with lower triangular factors by Kulikova (2019)
+ -  `Riccati_IMCCKF_SRCF_QL`   is the Square-Root Covariance Filter with lower triangular factors by Kulikova (2019), <a href="http://doi.org/10.1109/ICSTCC.2019.8885950">DOI</a>
+ -  `Riccati_IMCCKF_eSRCF_QL`  is the Extended Square-Root Covariance Filter with lower triangular factors by Kulikova (2019), <a href="http://doi.org/10.1109/ICSTCC.2019.8885950">DOI</a>
  -  
 ### Chandrasekhar recursion-based KF implementation methods:
 Conventional algorithms:
